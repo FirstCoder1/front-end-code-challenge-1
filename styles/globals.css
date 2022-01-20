@@ -1,0 +1,91 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 72pt;
+  font-weight: bold;
+  color: #0a23a6;
+}
+h2 {
+  font-size: 36pt;
+  font-weight: bold;
+  color: #086607;
+  text-align: right;
+  margin-right: 20px;
+}
+h3 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #f92121;
+}
+p {
+  font-size: 18pt;
+  color: #5c5c5c;
+}
+.container {
+  max-width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10pt;
+  /* border: 1px solid #5c5c5c; */
+}
+header {
+  width: 81%;
+}
+.server-status {
+  min-width: 400px;
+  display: inline-block;
+  padding: 25px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 36pt;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #5c5c5c;
+}
+
+th {
+  color: #5c5c5c;
+  background-color: #fff;
+}
+
+td,
+th {
+  border-top: 1px solid #5c5c5c;
+  border-bottom: 1px solid #5c5c5c;
+  text-align: center;
+  padding: 8px;
+  font-size: 18pt;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
